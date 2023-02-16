@@ -1,0 +1,52 @@
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+
+}
+
+.form {
+  padding: 40px;
+  width: 500px;
+  border-radius: 10px;
+  border: 3px solid maroon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form input {
+  min-width: 400px;
+  width: 100%;
+  padding: 5px 10px;
+  border: 2px solid maroon;
+}
+
+.form button {
+  margin-top: 15px;
+  margin-left: auto;
+  border: 2px solid maroon;
+  background: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: maroon;
+  cursor: pointer;
+}
+
+.form button:focus, .form input:focus {
+  outline: none;
+}
+
+.connection_message {
+  width: 550px;
+  text-align: center;
+}
+
+.message {
+  width: 550px;
+  border: 3px solid maroon;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+}
