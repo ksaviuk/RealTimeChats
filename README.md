@@ -7,7 +7,7 @@ To start one of the variation real time chat:
 2) 
 ### `npm start`
 3)
-### `cd my-chats`
+### `cd client`
 4) 
 ### `npm start`
 
